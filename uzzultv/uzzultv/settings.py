@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'sass_processor',
+    'uzzulPosts',
 ]
 
 MIDDLEWARE = [
@@ -125,4 +126,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SASS_PROCESSOR_ENABLED = True
-SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'blogPosts', 'static')
+SASS_PROCESSOR_ROOT = os.path.join(BASE_DIR, 'uzzulPosts', 'static')
